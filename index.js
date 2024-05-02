@@ -31,7 +31,6 @@ const Task = mongoose.model("Task", {
     },
     description: {
         type: String,
-        required: true,
     },
     priority: {
         type: String,
